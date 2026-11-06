@@ -1,0 +1,31 @@
+{
+  "id": "52c26496-dc21-4b8e-9e7a-0df778505eac",
+  "name": "Shopify Order Sync",
+  "publisher": "Dynorbit",
+  "version": "1.23.0.5",
+  "brief": "Imports Shopify orders into Business Central sales orders.",
+  "description": "Sample per-tenant extension that pulls orders from the Shopify GraphQL Admin API, creates customers and sales orders, and logs every order with one-click retry.",
+  "privacyStatement": "https://dynorbit.pages.dev/privacy",
+  "EULA": "",
+  "help": "https://dynorbit.pages.dev/contact",
+  "url": "https://dynorbit.pages.dev/",
+  "logo": "docs/logo/logo.png",
+  "dependencies": [],
+  "screenshots": [
+    "docs/screenshots/setup-page.png",
+    "docs/screenshots/sync-log.png",
+    "docs/screenshots/sales-order.png"
+  ],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    { "from": 50100, "to": 50149 }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "target": "Cloud"
+}
